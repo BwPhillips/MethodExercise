@@ -4,8 +4,30 @@ namespace MethodExercise
 {
     class MainClass
     {
+        public static int Sum(int num1, int num2)
+        {
+            var answer = num1 + num2;
+            return answer;
+        }
+
+        public static int Multiply(int num1, int num2)
+        {
+            
+            return num1 * num2;
+        }
+
         public static void Main(string[] args)
         {
+
+            //------------Exercise 2------------
+
+            var ammountOfCars = Sum(2, 6);
+
+            var ammountOfBeans = Multiply(10, 2);
+
+            //------------Exercise 2------------
+
+
             //------------Exercise 1------------
             //Name: Michael
             //Favorite Color: Blue
@@ -31,6 +53,10 @@ namespace MethodExercise
             Console.WriteLine($"Favorite Color: {color}");
             Console.WriteLine($"Favorite Animal: {animal}");
             Console.WriteLine($"Favorite Band: {bandName}");
+
+
+            
+
         }
     }
 }
