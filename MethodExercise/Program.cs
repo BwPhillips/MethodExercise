@@ -21,8 +21,16 @@ namespace MethodExercise
             Console.WriteLine($"{color} is an unique color. What is your favorite animal?");
             var animal = Console.ReadLine();
 
-            Console.WriteLine($"That {animal} is GREAT!!! What is your favorite Band?");
+            Console.WriteLine($"{animal} are GREAT!!! What is your favorite Band?");
             var bandName = Console.ReadLine();
+
+            Console.WriteLine($"Thanks, {userName}! Here is your profile");
+            Console.WriteLine($"----------------------------------------");
+
+            Console.WriteLine($"Name: {userName}");
+            Console.WriteLine($"Favorite Color: {color}");
+            Console.WriteLine($"Favorite Animal: {animal}");
+            Console.WriteLine($"Favorite Band: {bandName}");
         }
     }
 }
